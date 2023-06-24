@@ -8,6 +8,15 @@ import 'package:reader/ui/section_widget.dart';
 import 'package:reader/ui/paragraph_widget.dart';
 import 'package:reader/ui/line_widget.dart';
 import 'package:reader/ui/clause_widget.dart';
+import 'package:reader/models/library.dart';
+import 'package:reader/models/collection.dart';
+import 'package:reader/models/book.dart';
+import 'package:reader/models/part.dart';
+import 'package:reader/models/chapter.dart';
+import 'package:reader/models/section.dart';
+import 'package:reader/models/paragraph.dart';
+import 'package:reader/models/line.dart';
+import 'package:reader/models/clause.dart';
 
 
 void main() {
@@ -62,15 +71,15 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             const Text('You have pushed the button this many times:'),
             Text('$_counter', style: Theme.of(context).textTheme.headlineMedium),
-            LibraryWidget('Library - Bücherei'),
-            CollectionWidget('Collection - Reihe'),
-            BookWidget('Book - Buch'),
-            PartWidget('Part - Teil'),
-            ChapterWidget('Chapter - Kapitel'),
-            SectionWidget('Section - Abschnitt'),
-            ParagraphWidget('Paragraph - Absatz'),
-            LineWidget('Line - Satz'),
-            ClauseWidget('Clause - Teilsatz'),
+            LibraryWidget(Library('Library - Bücherei')),
+            CollectionWidget(Collection('Collection - Reihe')),
+            BookWidget(Book('Book - Buch')),
+            PartWidget(Part('Part - Teil')),
+            ChapterWidget(Chapter('Chapter - Kapitel')),
+            SectionWidget(Section('Section - Abschnitt')),
+            ParagraphWidget(Paragraph('Paragraph - Absatz')),
+            LineWidget(Line('Line - Satz')),
+            ClauseWidget(Clause('Clause - Teilsatz')),
           ],
         ),),
       ),
