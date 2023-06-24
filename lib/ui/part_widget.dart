@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class PartWidget extends StatelessWidget {
 
-  final String title;
+  final Part model;
 
-  const PartWidget(this.title);
+  const PartWidget(this.model);
 
   @override
   Widget build(BuildContext context) {
-    return Text(title);
+    return Text(model.title);
   }
 }

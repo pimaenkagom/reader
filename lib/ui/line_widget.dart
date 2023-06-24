@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class LineWidget extends StatelessWidget {
 
-  final String title;
+  final Line model;
 
-  const LineWidget(this.title);
+  const LineWidget(this.model);
 
   @override
   Widget build(BuildContext context) {
-    return Text(title);
+    return Text(model.title);
   }
 }

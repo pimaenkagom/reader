@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class SectionWidget extends StatelessWidget {
 
-  final String title;
+  final Section model;
 
-  const SectionWidget(this.title);
+  const SectionWidget(this.model);
 
   @override
   Widget build(BuildContext context) {
-    return Text(title);
+    return Text(model.title);
   }
 }

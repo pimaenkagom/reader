@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class ChapterWidget extends StatelessWidget {
 
-  final String title;
+  final Chapter model;
 
-  const ChapterWidget(this.title);
+  const ChapterWidget(this.model);
 
   @override
   Widget build(BuildContext context) {
-    return Text(title);
+    return Text(model.title);
   }
 }

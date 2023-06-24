@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class LibraryWidget extends StatelessWidget {
 
-  final String title;
+  final Library model;
 
-  const LibraryWidget(this.title);
+  const LibraryWidget(this.model);
 
   @override
   Widget build(BuildContext context) {
-    return Text(title);
+    return Text(model.title);
   }
 }

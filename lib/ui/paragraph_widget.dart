@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class ParagraphWidget extends StatelessWidget {
 
-  final String title;
+  final Paragraph model;
 
-  const ParagraphWidget(this.title);
+  const ParagraphWidget(this.model);
 
   @override
   Widget build(BuildContext context) {
-    return Text(title);
+    return Text(model.title);
   }
 }
