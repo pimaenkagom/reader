@@ -5,7 +5,7 @@ class LineWidget extends StatelessWidget {
 
   final Line model;
 
-  const LineWidget(this.model);
+  const LineWidget(this.model, {super.key});
 
   @override
   Widget build(BuildContext context) {

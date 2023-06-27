@@ -5,7 +5,7 @@ class ChapterWidget extends StatelessWidget {
 
   final Chapter model;
 
-  const ChapterWidget(this.model);
+  const ChapterWidget(this.model, {super.key});
 
   @override
   Widget build(BuildContext context) {

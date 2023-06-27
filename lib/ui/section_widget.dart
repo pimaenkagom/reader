@@ -5,7 +5,7 @@ class SectionWidget extends StatelessWidget {
 
   final Section model;
 
-  const SectionWidget(this.model);
+  const SectionWidget(this.model, {super.key});
 
   @override
   Widget build(BuildContext context) {

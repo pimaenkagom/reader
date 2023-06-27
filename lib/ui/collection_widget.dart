@@ -5,7 +5,7 @@ class CollectionWidget extends StatelessWidget {
 
   final Collection model;
 
-  const CollectionWidget(this.model);
+  const CollectionWidget(this.model, {super.key});
 
   @override
   Widget build(BuildContext context) {

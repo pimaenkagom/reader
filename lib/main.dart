@@ -65,23 +65,25 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Center(child:SingleChildScrollView(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text('You have pushed the button this many times:'),
-            Text('$_counter', style: Theme.of(context).textTheme.headlineMedium),
-            const LibraryWidget(Library('Library - Bücherei')),
-            const CollectionWidget(Collection('Collection - Reihe')),
-            const BookWidget(Book('Book - Buch')),
-            const PartWidget(Part('Part - Teil')),
-            const ChapterWidget(Chapter('Chapter - Kapitel')),
-            const SectionWidget(Section('Section - Abschnitt')),
-            const ParagraphWidget(Paragraph('Paragraph - Absatz')),
-            const LineWidget(Line('Line - Satz')),
-            const ClauseWidget(Clause('Clause - Teilsatz')),
-          ],
-        ),),
+      body: Center(
+        child:SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              const Text('You have pushed the button this many times:'),
+              Text('$_counter', style: Theme.of(context).textTheme.headlineMedium),
+              const LibraryWidget(Library('Library - Bücherei')),
+              const CollectionWidget(Collection('Collection - Reihe')),
+              const BookWidget(Book('Book - Buch')),
+              const PartWidget(Part('Part - Teil')),
+              const ChapterWidget(Chapter('Chapter - Kapitel')),
+              const SectionWidget(Section('Section - Abschnitt')),
+              const ParagraphWidget(Paragraph('Paragraph - Absatz')),
+              const LineWidget(Line('Line - Satz')),
+              const ClauseWidget(Clause('Clause - Teilsatz')),
+            ],
+          ),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,

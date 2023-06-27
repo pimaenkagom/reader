@@ -5,7 +5,7 @@ class LibraryWidget extends StatelessWidget {
 
   final Library model;
 
-  const LibraryWidget(this.model);
+  const LibraryWidget(this.model, {super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -5,7 +5,7 @@ class BookWidget extends StatelessWidget {
 
   final Book model;
 
-  const BookWidget(this.model);
+  const BookWidget(this.model, {super.key});
 
   @override
   Widget build(BuildContext context) {

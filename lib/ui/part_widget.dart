@@ -5,7 +5,7 @@ class PartWidget extends StatelessWidget {
 
   final Part model;
 
-  const PartWidget(this.model);
+  const PartWidget(this.model, {super.key});
 
   @override
   Widget build(BuildContext context) {

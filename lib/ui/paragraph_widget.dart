@@ -5,7 +5,7 @@ class ParagraphWidget extends StatelessWidget {
 
   final Paragraph model;
 
-  const ParagraphWidget(this.model);
+  const ParagraphWidget(this.model, {super.key});
 
   @override
   Widget build(BuildContext context) {
