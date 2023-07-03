@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:reader/models/chapter.dart';
+
+import 'chapter.dart';
 
 class ChapterWidget extends StatelessWidget {
 

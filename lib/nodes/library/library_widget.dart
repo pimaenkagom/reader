@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:reader/models/library.dart';
+
+import 'library.dart';
 
 class LibraryWidget extends StatelessWidget {
 

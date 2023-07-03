@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:reader/ui/library_widget.dart';
-import 'package:reader/ui/collection_widget.dart';
-import 'package:reader/ui/book_widget.dart';
-import 'package:reader/ui/part_widget.dart';
-import 'package:reader/ui/chapter_widget.dart';
-import 'package:reader/ui/section_widget.dart';
-import 'package:reader/ui/paragraph_widget.dart';
-import 'package:reader/ui/line_widget.dart';
-import 'package:reader/ui/clause_widget.dart';
-import 'package:reader/models/library.dart';
-import 'package:reader/models/collection.dart';
-import 'package:reader/models/book.dart';
-import 'package:reader/models/part.dart';
-import 'package:reader/models/chapter.dart';
-import 'package:reader/models/section.dart';
-import 'package:reader/models/paragraph.dart';
-import 'package:reader/models/line.dart';
-import 'package:reader/models/clause.dart';
+import 'package:reader/nodes/library/library_widget.dart';
+import 'package:reader/nodes/collection/collection_widget.dart';
+import 'package:reader/nodes/book/book_widget.dart';
+import 'package:reader/nodes/part/part_widget.dart';
+import 'package:reader/nodes/chapter/chapter_widget.dart';
+import 'package:reader/nodes/section/section_widget.dart';
+import 'package:reader/nodes/paragraph/paragraph_widget.dart';
+import 'package:reader/nodes/line/line_widget.dart';
+import 'package:reader/nodes/clause/clause_widget.dart';
+import 'package:reader/nodes/library/library.dart';
+import 'package:reader/nodes/collection/collection.dart';
+import 'package:reader/nodes/book/book.dart';
+import 'package:reader/nodes/part/part.dart';
+import 'package:reader/nodes/chapter/chapter.dart';
+import 'package:reader/nodes/section/section.dart';
+import 'package:reader/nodes/paragraph/paragraph.dart';
+import 'package:reader/nodes/line/line.dart';
+import 'package:reader/nodes/clause/clause.dart';
 
 
 void main() {

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:reader/models/clause.dart';
+
+import 'clause.dart';
 
 class ClauseWidget extends StatelessWidget {
 

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:reader/models/line.dart';
+
+import 'line.dart';
 
 class LineWidget extends StatelessWidget {
 

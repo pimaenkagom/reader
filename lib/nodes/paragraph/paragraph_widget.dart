@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:reader/models/paragraph.dart';
+
+import 'paragraph.dart';
 
 class ParagraphWidget extends StatelessWidget {
 

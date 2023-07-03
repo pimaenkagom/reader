@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:reader/models/part.dart';
+
+import 'part.dart';
 
 class PartWidget extends StatelessWidget {
 

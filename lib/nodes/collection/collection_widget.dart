@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:reader/models/collection.dart';
+
+import 'collection.dart';
 
 class CollectionWidget extends StatelessWidget {
 
