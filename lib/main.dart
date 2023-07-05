@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Text('$_counter', style: Theme.of(context).textTheme.headlineMedium),
               const LibraryWidget(Library('Library - Bücherei')),
               const CollectionWidget(Collection('Collection - Reihe')),
-              const BookWidget(Book('Book - Buch')),
+              BookWidget(model: Book('Book - Buch')),
               const PartWidget(Part('Part - Teil')),
               const ChapterWidget(Chapter('Chapter - Kapitel')),
               const SectionWidget(Section('Section - Abschnitt')),

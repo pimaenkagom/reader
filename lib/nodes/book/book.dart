@@ -1,7 +1,6 @@
 
-class Book {
+import 'package:reader/nodes/base/base.dart';
 
-  final String title;
-
-  const Book(this.title);
+class Book extends Base {
+  Book(super.title);
 }

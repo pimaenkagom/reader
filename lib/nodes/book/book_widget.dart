@@ -1,15 +1,5 @@
-import 'package:flutter/material.dart';
+import 'package:reader/nodes/base/base_widget.dart';
 
-import 'book.dart';
-
-class BookWidget extends StatelessWidget {
-
-  final Book model;
-
-  const BookWidget(this.model, {super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Text(model.title);
-  }
+class BookWidget extends BaseWidget {
+  const BookWidget({ required super.model, super.key });
 }
