@@ -1,7 +1,5 @@
+import 'package:reader/nodes/base/base.dart';
 
-class Line {
-
-  final String title;
-
-  const Line(this.title);
+class Line extends Base {
+  Line(super.title);
 }

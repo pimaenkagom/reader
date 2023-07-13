@@ -1,7 +1,5 @@
+import 'package:reader/nodes/base/base.dart';
 
-class Clause {
-
-  final String title;
-
-  const Clause(this.title);
+class Clause extends Base {
+  Clause(super.title);
 }

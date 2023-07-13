@@ -1,7 +1,5 @@
+import 'package:reader/nodes/base/base.dart';
 
-class Paragraph {
-
-  final String title;
-
-  const Paragraph(this.title);
+class Paragraph extends Base {
+  Paragraph(super.title);
 }

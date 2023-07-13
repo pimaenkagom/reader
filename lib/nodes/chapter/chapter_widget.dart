@@ -1,15 +1,5 @@
-import 'package:flutter/material.dart';
+import 'package:reader/nodes/base/base_widget.dart';
 
-import 'chapter.dart';
-
-class ChapterWidget extends StatelessWidget {
-
-  final Chapter model;
-
-  const ChapterWidget(this.model, {super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Text(model.title);
-  }
+class ChapterWidget extends BaseWidget {
+  const ChapterWidget({ required super.model, super.key });
 }

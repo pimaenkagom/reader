@@ -1,7 +1,5 @@
+import 'package:reader/nodes/base/base.dart';
 
-class Collection {
-
-  final String title;
-
-  const Collection(this.title);
+class Collection extends Base {
+  Collection(super.title);
 }

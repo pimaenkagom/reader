@@ -1,15 +1,5 @@
-import 'package:flutter/material.dart';
+import 'package:reader/nodes/base/base_widget.dart';
 
-import 'paragraph.dart';
-
-class ParagraphWidget extends StatelessWidget {
-
-  final Paragraph model;
-
-  const ParagraphWidget(this.model, {super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Text(model.title);
-  }
+class ParagraphWidget extends BaseWidget {
+  const ParagraphWidget({ required super.model, super.key });
 }

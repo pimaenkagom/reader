@@ -1,15 +1,5 @@
-import 'package:flutter/material.dart';
+import 'package:reader/nodes/base/base_widget.dart';
 
-import 'clause.dart';
-
-class ClauseWidget extends StatelessWidget {
-
-  final Clause model;
-
-  const ClauseWidget(this.model, {super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Text(model.title);
-  }
+class ClauseWidget extends BaseWidget {
+  const ClauseWidget({ required super.model, super.key });
 }

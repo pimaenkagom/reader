@@ -1,7 +1,5 @@
+import 'package:reader/nodes/base/base.dart';
 
-class Part {
-
-  final String title;
-
-  const Part(this.title);
+class Part extends Base {
+  Part(super.title);
 }

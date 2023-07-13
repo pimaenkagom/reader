@@ -1,15 +1,5 @@
-import 'package:flutter/material.dart';
+import 'package:reader/nodes/base/base_widget.dart';
 
-import 'line.dart';
-
-class LineWidget extends StatelessWidget {
-
-  final Line model;
-
-  const LineWidget(this.model, {super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Text(model.title);
-  }
+class LineWidget extends BaseWidget {
+  const LineWidget({ required super.model, super.key });
 }

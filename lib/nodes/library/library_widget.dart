@@ -1,15 +1,5 @@
-import 'package:flutter/material.dart';
+import 'package:reader/nodes/base/base_widget.dart';
 
-import 'library.dart';
-
-class LibraryWidget extends StatelessWidget {
-
-  final Library model;
-
-  const LibraryWidget(this.model, {super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Text(model.title);
-  }
+class LibraryWidget extends BaseWidget {
+  const LibraryWidget({ required super.model, super.key });
 }

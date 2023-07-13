@@ -1,15 +1,5 @@
-import 'package:flutter/material.dart';
+import 'package:reader/nodes/base/base_widget.dart';
 
-import 'collection.dart';
-
-class CollectionWidget extends StatelessWidget {
-
-  final Collection model;
-
-  const CollectionWidget(this.model, {super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Text(model.title);
-  }
+class CollectionWidget extends BaseWidget {
+  const CollectionWidget({ required super.model, super.key });
 }

@@ -1,15 +1,5 @@
-import 'package:flutter/material.dart';
+import 'package:reader/nodes/base/base_widget.dart';
 
-import 'part.dart';
-
-class PartWidget extends StatelessWidget {
-
-  final Part model;
-
-  const PartWidget(this.model, {super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Text(model.title);
-  }
+class PartWidget extends BaseWidget {
+  const PartWidget({ required super.model, super.key });
 }
