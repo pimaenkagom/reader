@@ -1,22 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:reader/nodes/library/library_widget.dart';
-import 'package:reader/nodes/collection/collection_widget.dart';
-import 'package:reader/nodes/book/book_widget.dart';
-import 'package:reader/nodes/part/part_widget.dart';
-import 'package:reader/nodes/chapter/chapter_widget.dart';
-import 'package:reader/nodes/section/section_widget.dart';
-import 'package:reader/nodes/paragraph/paragraph_widget.dart';
-import 'package:reader/nodes/line/line_widget.dart';
-import 'package:reader/nodes/clause/clause_widget.dart';
-import 'package:reader/nodes/library/library.dart';
 import 'package:reader/nodes/collection/collection.dart';
-import 'package:reader/nodes/book/book.dart';
-import 'package:reader/nodes/part/part.dart';
-import 'package:reader/nodes/chapter/chapter.dart';
-import 'package:reader/nodes/section/section.dart';
-import 'package:reader/nodes/paragraph/paragraph.dart';
-import 'package:reader/nodes/line/line.dart';
-import 'package:reader/nodes/clause/clause.dart';
+import 'package:reader/nodes/library/library.dart';
+import 'package:reader/nodes/library/library_widget.dart';
 
 void main() {
   runApp(const App());
@@ -34,7 +19,25 @@ class App extends StatelessWidget {
         useMaterial3: true,
       ),
       darkTheme: ThemeData.dark(),
-      home: Container(),
+      home: Scaffold(
+        body: Center(
+          child: LibraryWidget(
+            model: Library(
+              id: 'id',
+              title: 'Library',
+              children: [
+                Collection(
+                  id: 'id',
+                  title: 'Collection',
+                  children: [],
+                  tags: [],
+                ),
+              ],
+              tags: [],
+            ),
+          ),
+        ),
+      ),
     );
   }
 }
